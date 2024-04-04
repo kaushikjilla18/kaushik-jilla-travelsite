@@ -42,6 +42,22 @@ body {
 border-bottom: 2px solid #DB7A4E;
 }
 
+.primary-nav__link--hawaii-active{
+border-bottom: 2px solid #DB7A4E;
+}
+
+.primary-nav__link--iceland-active{
+    border-bottom: 2px solid #DB7A4E;
+}
+
+.primary-nav__link--greece-active{
+    border-bottom: 2px solid #DB7A4E;
+}
+
+main section{
+    height: 50vh;
+}
+
 .travel-footer{
     display: flex;
     background: #FEFAF5;
