@@ -1,0 +1,37 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+.travel-header {
+  display: flex;
+  background-color: coral;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.travel-header__title {
+  color: #335576;
+  text-decoration: none;
+  padding: 0rem 2rem;
+}
+
+.primary-nav {
+}
+
+.primary-nav__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-nav__item {
+  justify-content: space-around;
+  align-items: space-around;
+  list-style: none;
+}
+
+.primary-nav__link {
+  text-decoration: none;
+  padding: 1rem;
+  color: black;
+  display: inline-block;
+}
