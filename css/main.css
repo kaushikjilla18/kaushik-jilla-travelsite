@@ -1,0 +1,29 @@
+.section-flex-container {
+  height: 80vh;
+  background: #fefaf5;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.section-content {
+}
+
+.section-content__title {
+  font-size: 2rem;
+  color: #335576;
+}
+
+.section-content__subtitle {
+  color: #335576;
+}
+
+.section-content__button {
+  background: #db7a4e;
+  border-radius: 15px;
+  font-size: 1rem;
+  border: none;
+  color: white;
+  padding: 0.4rem 1.5rem;
+  margin-top: 1rem;
+}

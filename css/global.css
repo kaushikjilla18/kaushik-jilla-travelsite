@@ -1,10 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
 }
 .travel-header {
   display: flex;
-  background-color: #FFF;
+  background-color: #fff;
   justify-content: space-between;
   align-items: baseline;
 }
@@ -12,7 +16,7 @@ body {
   color: #335576;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.20rem;
+  font-size: 1.2rem;
   padding: 0rem 2rem;
 }
 
@@ -38,75 +42,81 @@ body {
   display: inline-block;
 }
 
-.primary-nav__link--home-active{
-border-bottom: 2px solid #DB7A4E;
+.primary-nav__link--home-active {
+  border-bottom: 2px solid #db7a4e;
 }
 
-.primary-nav__link--hawaii-active{
-border-bottom: 2px solid #DB7A4E;
+.primary-nav__link--hawaii-active {
+  border-bottom: 2px solid #db7a4e;
 }
 
-.primary-nav__link--iceland-active{
-    border-bottom: 2px solid #DB7A4E;
+.primary-nav__link--iceland-active {
+  border-bottom: 2px solid #db7a4e;
 }
 
-.primary-nav__link--greece-active{
-    border-bottom: 2px solid #DB7A4E;
+.primary-nav__link--greece-active {
+  border-bottom: 2px solid #db7a4e;
 }
 
-main section{
-    height: 50vh;
+main section {
+  height: 50vh;
 }
 
-.travel-footer{
-    display: flex;
-    background: #FEFAF5;
-    justify-content: space-around;
+.travel-footer {
+  display: flex;
+  background: #fefaf5;
+  justify-content: space-around;
 }
 
-.contact-section{}
-.contact-section__title{
-    color: #335576;
+.contact-section {
 }
-.email-details{}
-.email-details__title{
-    color: #DB7A4E;
+.contact-section__title {
+  color: #335576;
 }
-.email-details__website{
-    color: #335576;
+.email-details {
 }
-
-.hours-section{}
-.hours-section__title{
-    color: #335576;
+.email-details__title {
+  color: #db7a4e;
 }
-.days-info{}
-.days-info__weekday{
-    color: #DB7A4E;
-}
-.days-info_time{
-    color: #335576;
-}
-.weekend-sat{}
-
-.weekend-sat__info{
-    color: #DB7A4E;
-}
-.weekend-sat__time{
-    color: #335576;
-}
-.weekend-sun{}
-.weekend-sun__info{
-    color: #DB7A4E;
-}
-.weekend-sun__time{
-    color: #335576;
+.email-details__website {
+  color: #335576;
 }
 
-.social-section{
-    
+.hours-section {
 }
-.social-section__title{
-    color: #335576;
+.hours-section__title {
+  color: #335576;
 }
-.social-media-icons{}
+.days-info {
+}
+.days-info__weekday {
+  color: #db7a4e;
+}
+.days-info_time {
+  color: #335576;
+}
+.weekend-sat {
+}
+
+.weekend-sat__info {
+  color: #db7a4e;
+}
+.weekend-sat__time {
+  color: #335576;
+}
+.weekend-sun {
+}
+.weekend-sun__info {
+  color: #db7a4e;
+}
+.weekend-sun__time {
+  color: #335576;
+}
+
+.social-section {
+}
+.social-section__title {
+  color: #335576;
+}
+.social-media-icons {
+}
