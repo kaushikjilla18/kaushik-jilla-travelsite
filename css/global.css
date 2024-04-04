@@ -87,30 +87,20 @@ main section {
 .hours-section__title {
   color: #335576;
 }
-.days-info {
-}
-.days-info__weekday {
-  color: #db7a4e;
-}
-.days-info_time {
-  color: #335576;
-}
-.weekend-sat {
-}
 
-.weekend-sat__info {
+.hours-section__flex-container {
+  display: flex;
+}
+.hours-section__days-info {
+}
+.hours-section__day {
   color: #db7a4e;
 }
-.weekend-sat__time {
+.hours-section__time {
   color: #335576;
 }
-.weekend-sun {
-}
-.weekend-sun__info {
-  color: #db7a4e;
-}
-.weekend-sun__time {
-  color: #335576;
+.hours-section__days-info--weekend {
+  margin: 0rem 2rem;
 }
 
 .social-section {

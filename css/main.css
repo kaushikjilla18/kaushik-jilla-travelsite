@@ -27,3 +27,51 @@
   padding: 0.4rem 1.5rem;
   margin-top: 1rem;
 }
+
+.main-content {
+  height: 90vh;
+}
+
+.section-recommendation {
+  margin-top: 2rem;
+  padding: 0rem 4rem;
+}
+
+.section-recommendation__title {
+  color: #335576;
+  padding: 1rem;
+}
+
+.section-recommendation__container {
+  display: flex;
+  justify-content: center;
+}
+.section-recommendation__card {
+  width: 200px;
+  height: 300px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid rgb(0 0 0 / 20%);
+  box-shadow: 0px 4px 4px 0px;
+}
+
+.section-recommendation__card--hawaii {
+  background: url("../assets/Images/hawaii.jpg");
+  background-size: cover;
+}
+.section-recommendation__card--iceland {
+  background: url("../assets/Images/iceland.jpg");
+  background-size: cover;
+  margin: 0rem 2rem;
+}
+.section-recommendation__card--greece {
+  background: url("../assets/Images/greece.jpg");
+  background-size: cover;
+}
