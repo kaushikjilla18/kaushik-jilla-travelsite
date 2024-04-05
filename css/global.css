@@ -65,12 +65,14 @@ main section {
 .travel-footer {
   display: flex;
   background: #fefaf5;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .contact-section {
+  margin: 2rem;
 }
 .contact-section__title {
+  margin: 2rem 0;
   color: #335576;
 }
 .email-details {
@@ -83,8 +85,10 @@ main section {
 }
 
 .hours-section {
+  margin: 2rem 3rem;
 }
 .hours-section__title {
+  margin: 1.5rem 0;
   color: #335576;
 }
 
@@ -104,9 +108,20 @@ main section {
 }
 
 .social-section {
+  margin: 2rem;
 }
 .social-section__title {
   color: #335576;
 }
+
 .social-media-icons {
+  margin: 4rem 0 2rem 0;
+}
+.social-media-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.social-media-icons img:nth-child(2) {
+  margin: 0rem 1.5rem;
 }
