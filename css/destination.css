@@ -1,10 +1,17 @@
 .destination-section {
-  background-image: url("../assets/Images/hawaii.jpg");
   background-size: cover;
   background-position: center;
   height: 700px;
 }
-
+.destination-section--hawaii {
+  background-image: url("../assets/Images/hawaii.jpg");
+}
+.destination-section--iceland {
+  background-image: url("../assets/Images/iceland.jpg");
+}
+.destination-section--greece {
+  background-image: url("../assets/Images/greece.jpg");
+}
 .destination-section__title {
   margin: 0;
   font-size: 4rem;
