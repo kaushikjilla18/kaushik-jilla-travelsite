@@ -4,20 +4,15 @@
   display: flex;
   justify-content: space-around;
   padding: 2rem;
+  margin-top: 3.5rem;
 }
-
-.section-content {
-}
-
 .section-content__title {
   font-size: 2rem;
   color: #335576;
 }
-
 .section-content__subtitle {
   color: #335576;
 }
-
 .section-content__button {
   background: #db7a4e;
   border-radius: 15px;
@@ -27,21 +22,17 @@
   padding: 0.4rem 1.5rem;
   margin-top: 1rem;
 }
-
 .main-content {
   height: 90vh;
 }
-
 .section-recommendation {
   margin-top: 2rem;
   padding: 0rem 4rem;
 }
-
 .section-recommendation__title {
   color: #335576;
   padding: 1rem;
 }
-
 .section-recommendation__container {
   display: flex;
   justify-content: center;
@@ -61,7 +52,6 @@
   border: 1px solid rgb(0 0 0 / 20%);
   box-shadow: 0px 4px 4px 0px;
 }
-
 .section-recommendation__card--hawaii {
   background: url("../assets/Images/hawaii.jpg");
   background-size: cover;

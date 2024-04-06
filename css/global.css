@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
@@ -11,6 +10,10 @@ body {
   background-color: #fff;
   justify-content: space-between;
   align-items: baseline;
+  padding: 0.6rem 1rem 0.6rem 4rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .travel-header__title {
   color: #335576;
@@ -19,60 +22,38 @@ body {
   font-size: 1.2rem;
   padding: 0rem 2rem;
 }
-
 .primary-nav {
+  margin-right: 2rem;
 }
-
 .primary-nav__list {
   display: flex;
   margin: 0;
   padding: 0;
 }
-
 .primary-nav__item {
-  justify-content: space-around;
-  align-items: space-around;
   list-style: none;
+  padding: 0.6rem;
+  padding-bottom: 0;
 }
-
 .primary-nav__link {
-  text-decoration: none;
-  padding: 1rem;
-  color: black;
   display: inline-block;
+  text-decoration: none;
+  padding-bottom: 0.6rem;
+  color: #335576;
 }
-
 .primary-nav__link--home-active {
-  border-bottom: 2px solid #db7a4e;
+  border-bottom: 3px solid #db7a4e;
 }
-
-.primary-nav__link--hawaii-active {
-  border-bottom: 2px solid #db7a4e;
-}
-
-.primary-nav__link--iceland-active {
-  border-bottom: 2px solid #db7a4e;
-}
-
-.primary-nav__link--greece-active {
-  border-bottom: 2px solid #db7a4e;
-}
-
-main section {
-  height: 50vh;
-}
-
 .travel-footer {
   display: flex;
   background: #fefaf5;
   justify-content: center;
 }
-
 .contact-section {
   margin: 2rem;
 }
 .contact-section__title {
-  margin: 2rem 0;
+  margin-bottom: 2rem;
   color: #335576;
 }
 .email-details {
@@ -83,21 +64,20 @@ main section {
 .email-details__website {
   color: #335576;
 }
-
 .hours-section {
   margin: 2rem 3rem;
 }
 .hours-section__title {
-  margin: 1.5rem 0;
+  margin-bottom: 2rem;
   color: #335576;
 }
-
 .hours-section__flex-container {
   display: flex;
 }
 .hours-section__days-info {
 }
 .hours-section__day {
+  margin-top: 0;
   color: #db7a4e;
 }
 .hours-section__time {
@@ -106,22 +86,20 @@ main section {
 .hours-section__days-info--weekend {
   margin: 0rem 2rem;
 }
-
 .social-section {
   margin: 2rem;
 }
 .social-section__title {
+  margin-bottom: 2rem;
   color: #335576;
 }
-
 .social-media-icons {
-  margin: 4rem 0 2rem 0;
+  padding: 1rem 0;
 }
 .social-media-icons img {
   width: 30px;
   height: 30px;
 }
-
 .social-media-icons img:nth-child(2) {
   margin: 0rem 1.5rem;
 }

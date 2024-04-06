@@ -18,13 +18,11 @@
   color: white;
   padding: 4rem;
 }
-
 .destination-section__flex-container {
   display: flex;
   justify-content: center;
   padding-top: 1.5rem;
 }
-
 .destination-section__card {
   width: 250px;
   background: white;
@@ -49,4 +47,13 @@
   background: #fefaf5;
   padding: 1rem 1.5rem;
   margin-bottom: 12px;
+}
+.primary-nav__link--hawaii-active {
+  border-bottom: 3px solid #db7a4e;
+}
+.primary-nav__link--iceland-active {
+  border-bottom: 3px solid #db7a4e;
+}
+.primary-nav__link--greece-active {
+  border-bottom: 3px solid #db7a4e;
 }
