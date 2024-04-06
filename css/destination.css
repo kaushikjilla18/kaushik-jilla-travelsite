@@ -13,15 +13,14 @@
   background-image: url("../assets/Images/greece.jpg");
 }
 .destination-section__title {
-  margin: 0;
+  margin: 2rem 0 0 1rem;
   font-size: 4rem;
   color: white;
-  padding: 4rem;
+  padding: 5rem;
 }
 .destination-section__flex-container {
   display: flex;
   justify-content: center;
-  padding-top: 1.5rem;
 }
 .destination-section__card {
   width: 250px;
